@@ -3,5 +3,5 @@ Lopez Hernandez julio isaac
 
 pagina: https://www.gamestorrents.fm
 
-![Gamestorrent](Captura.jpg)
+![Gamestorrent](Captura.JPG)
 
