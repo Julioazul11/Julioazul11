@@ -1,0 +1,270 @@
+body {
+    background-image: url("https://www.gamestorrents.fm/wp-content/themes/GamesTorrent/css/images/body1.jpg");
+}
+
+.contene{
+    display: flex;
+    justify-content: center;
+}
+
+img.responsive {
+    margin-top: 2em;
+    max-width: 1730px;
+}
+
+#acherre{
+    color: #ff5a28;
+    height: 1px;
+    opacity: 100;
+}
+
+.links{
+    display: flex;
+    justify-content: right;
+    width: 1730px;
+}
+.linktop{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: solid black;
+    margin-left: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.linktop:hover{
+    color: #ff5a28;
+}
+
+.container-fluid{
+    justify-content: space-evenly;
+}
+
+.linknav{
+    margin-left: 20px;
+    color: gray;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+h1{
+    color: gray;
+}
+
+.navbar-toggler-icon, .navbar-brand{
+    background-color: gray;
+}
+
+#navbarr{
+    margin-top: 0.1em;
+    width:1730px;
+    margin-bottom: 1.5em;
+}
+
+
+.bodi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodi2{
+    display: flex;
+    justify-content: left;
+    width: 1730px;
+}
+
+#Search{
+    box-shadow: 0 0 10px cyan;
+}
+
+.linknav:hover{
+    background-color: black;
+    border: solid black;
+    color: white;
+}
+
+#gamedisplay{
+    background-color: black;
+}
+.cajita{
+    width: 81%;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+.cajita2{
+    display: flex; 
+    width: 18.5%;
+    height: 600px;
+    margin-left: 1.5em;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.seletgam{
+   width: 50%; 
+   height: 50px;
+   font-size: 20px;
+   background-color: grey;
+   margin: 5px;
+}
+
+option{
+    margin-left: 30px;
+}
+
+.lits{
+    list-style-type: none;
+    display: flex;
+}
+
+.letr{
+    text-decoration: none;
+    color: #ff5a28;
+    margin-right: 8px;
+    margin-left: 8px;
+
+    font-weight: 500;
+}
+
+.lialfa{
+    background-color: transparent;
+    margin: 3px;
+    border: solid #ff5a28 1px;
+}
+
+.lialfa:hover{
+    background-color: #ff5a28;
+    cursor: pointer;
+}
+
+.lialfa:hover .letr{
+    color: white;
+}
+
+.tableimg{
+    width: 150px;
+    height: 300px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+    
+}
+
+
+.alfa{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.juegos{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 34px;
+    margin-top: 15px;
+}
+
+.stet{
+    border-radius: 5px;
+    border: solid black 5px;
+}
+
+.stet:hover{
+    filter: brightness(70%);
+}
+
+.GT{
+    background-color: black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: white;
+    width: 150px;
+    white-space: nowrap;
+    margin-left: 70px;
+    margin-bottom: 25px;
+    font-size: 25px;
+
+}
+
+@media (max-width: 1730px){
+    .bodi2{
+        width: 1200px;
+    }
+
+    #navbarr{
+        width:1200px;
+    }
+    
+    img.responsive {
+        max-width: 1200px;
+    }
+
+    .tableimg{
+        width: 100px;
+        height: 200px;
+        margin: 30px;
+    }
+
+
+    .GT{
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 100px;
+        margin: 30px;
+    }
+
+
+    .links{
+        width: 1200px;
+    }
+
+    .letr{
+        text-decoration: none;
+        color: #ff5a28;
+        margin-right: 4px;
+        margin-left: 4px;
+    
+        font-weight: 500;
+    }
+    
+    .lialfa{
+        background-color: transparent;
+        margin: 1px;
+        border: solid #ff5a28 1px;
+    }
+    
+}
+
+@media (max-width: 1200px){
+    .bodi2{
+        width: 670px;
+    }
+
+    #navbarr{
+        width:670px;
+    }
+    
+    img.responsive {
+        max-width: 670px;
+    }
+
+    .links{
+        width: 670px;
+    }
+
+
+    .tableimg{
+        width: 70px;
+        height: 140px;
+        margin: 10px;
+    }
+
+    .GT{
+        background-color: black;
+        color: white;
+        width: 70px;
+        margin: 10px;
+    }
+}
